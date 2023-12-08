@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+#canvas1 {
+    display: block;
+    position: absolute;
+    background-image: url(img/fon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cursor{
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0, 1s;
+    transform: translate(-0%, -0%);
+    z-index: 101;
+    border: 0;
+}
